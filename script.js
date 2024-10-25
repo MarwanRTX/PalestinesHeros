@@ -1,11 +1,8 @@
-// Fetch the JSON data
 fetch('data.json')
     .then(response => response.json())
     .then(data => {
-        console.log(data); // Add this line to check if data is loaded
         const container = document.getElementById('card-container');
         
-        // Proceed with generating cards
         data.forEach(person => {
             const card = document.createElement('div');
             card.classList.add('card');
@@ -27,6 +24,16 @@ fetch('data.json')
             const desc = document.createElement('p');
             desc.textContent = person.short_description;
             card.appendChild(desc);
+
+            const button = document.createElement('a');
+            button.classList.add('button');
+            button.href = "#";
+            button.textContent = "More Info";
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                alert(`More about ${person.Name}: \n${person.long_description || "Description not available."}`);
+            });
+            card.appendChild(button);
 
             container.appendChild(card);
         });
