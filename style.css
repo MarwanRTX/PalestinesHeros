@@ -1,57 +1,106 @@
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        margin: 0;
-        padding: 0;
-    }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
-    header {
-        background-color: #2c3e50;
-        color: white;
-        padding: 20px;
-        text-align: center;
-    }
+/* Header with Flag Colors */
+header {
+    background: linear-gradient(to right, black, red, green, white);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    animation: fadeIn 1s ease-in-out;
+}
 
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 20px;
-    }
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
 
-    .card {
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin: 15px;
-        max-width: 300px;
-        overflow: hidden;
-        text-align: center;
-        transition: transform 0.2s;
-    }
+/* Card Styling */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    margin: 15px;
+    max-width: 300px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideIn 0.6s ease-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
 
-    .card:hover {
-        transform: scale(1.05);
-    }
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
 
-    .card img {
-        width: 100%;
-        height: auto;
-    }
+/* Image */
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
 
-    .card h3 {
-        color: #333;
-        font-size: 1.5em;
-        margin: 10px 0;
-    }
+/* Text Styles */
+.card h3 {
+    color: black;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
 
-    .card p {
-        color: #666;
-        font-size: 1em;
-        padding: 0 15px;
-    }
+.card p {
+    color: #666;
+    font-size: 1em;
+    padding: 0 15px;
+}
 
-    .card .date {
-        font-size: 0.9em;
-        color: #999;
+.card .date {
+    font-size: 0.9em;
+    color: green;
+    padding-bottom: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
     }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Delayed Animation for Cards */
+.container .card:nth-child(odd) {
+    animation-delay: 0.3s;
+}
+
+.container .card:nth-child(even) {
+    animation-delay: 0.6s;
+}
