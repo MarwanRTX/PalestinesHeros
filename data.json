@@ -23,13 +23,6 @@
         "short_description": "A commander in Hamas’ military wing, known for his role in resistance activities, killed in an Israeli airstrike."
     },
     {
-        "Name": "إبراهيم المقادمة",
-        "image_url": "/image/Ibrahim al-Makadmeh.jpg",
-        "date_of_birth": "1950",
-        "date_of_death": "March 8, 2003",
-        "short_description": "A prominent leader and strategist in Hamas, assassinated by Israel in 2003."
-    },
-    {
         "Name": "خالد مشعل",
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Khaled_Meshaal_01_%28cropped%29.jpg/372px-Khaled_Meshaal_01_%28cropped%29.jpg",
         "date_of_birth": "May 28, 1956",
@@ -44,95 +37,11 @@
         "short_description": "A senior Hamas leader and current head of the Hamas Political Bureau."
     },
     {
-        "Name": "نزار عوض الله",
-        "image_url": "/image/Nizar Awadallah.jpg",
-        "date_of_birth": "1957",
-        "date_of_death": "Unkown",
-        "short_description": "One of the senior Hamas political leaders and a key figure in the Palestinian resistance."
-    },
-    {
         "Name": "جمال منصور",
         "image_url": "https://upload.wikimedia.org/wikipedia/ar/c/ca/JamalMansur.jpg",
         "date_of_birth": "1960",
         "date_of_death": "July 31, 2001",
         "short_description": "A senior Hamas political leader, killed in an Israeli airstrike in 2001."
-    },
-    {
-        "Name": "حامد البتاوي",
-        "image_url": "/image/Hamed al-Bitawi.jpg",
-        "date_of_birth": "1944",
-        "date_of_death": "March 30, 2012",
-        "short_description": "A prominent Islamic scholar and Hamas member, former head of the Palestinian Islamic Scholars Association."
-    },
-    {
-        "Name": "جمال سليم",
-        "image_url": "/image/Jamal Saleem.jpg",
-        "date_of_birth": "1958",
-        "date_of_death": "July 31, 2001",
-        "short_description": "A leading Hamas political figure, killed in an Israeli airstrike in 2001."
-    },
-    {
-        "Name": "نزار ريان",
-        "image_url": "/image/Nizar Rayan.jpg",
-        "date_of_birth": "March 6, 1959",
-        "date_of_death": "January 1, 2009",
-        "short_description": "A senior Hamas military and political leader, killed during the 2008-2009 Gaza War."
-    },
-    {
-        "Name": "سعيد صيام",
-        "image_url": "/image/Saeed Siyam.jpg",
-        "date_of_birth": "July 22, 1959",
-        "date_of_death": "January 15, 2009",
-        "short_description": "A senior Hamas political and military figure, killed during Operation Cast Lead in 2009."
-    },
-    {
-        "Name": "خليل القوقا",
-        "image_url": "/image/Khalil al-Hayya.jpg",
-        "date_of_birth": "July 1, 1960",
-        "date_of_death": "Unkown",
-        "short_description": "A senior Hamas political leader and deputy head of the political bureau."
-    },
-    {
-        "Name": "محمود الزهار",
-        "image_url": "/image/Mahmoud al-Zahar.jpg",
-        "date_of_birth": "May 6, 1945",
-        "date_of_death": "Unkown",
-        "short_description": "A founding member of Hamas and senior political leader."
-    },
-    {
-        "Name": "عماد العلمي",
-        "image_url": "/image/Imad al-Alami.jpg",
-        "date_of_birth": "1956",
-        "date_of_death": "January 29, 2018",
-        "short_description": "A senior Hamas leader, succumbed to injuries sustained in an accidental gunshot."
-    },
-    {
-        "Name": "عزت الرشق",
-        "image_url": "/image/Izzat al-Rishq.jpg",
-        "date_of_birth": "1960",
-        "date_of_death": "Unkown",
-        "short_description": "A senior member of Hamas’ political bureau and a key figure in its diplomatic efforts."
-    },
-    {
-        "Name": "سامي خاطر",
-        "image_url": "/image/Sami Khater.jpg",
-        "date_of_birth": "1955",
-        "date_of_death": "Unkown",
-        "short_description": "A senior member of the Hamas political bureau."
-    },
-    {
-        "Name": "ماهر عبيد",
-        "image_url": "/image/Maher Obeid.jpg",
-        "date_of_birth": "1961",
-        "date_of_death": "Unkown",
-        "short_description": "A key figure in the Hamas leadership and political strategy."
-    },
-    {
-        "Name": "روحي مشتهى",
-        "image_url": "/image/Ruhi Mushtaha.jpg",
-        "date_of_birth": "1957",
-        "date_of_death": "Unkown",
-        "short_description": "A senior member of the Hamas leadership, released in the 2011 prisoner swap deal."
     },
     {
         "Name": "يحيى السنوار",
@@ -149,38 +58,10 @@
         "short_description": "A senior Hamas leader responsible for its operations in the West Bank."
     },
     {
-        "Name": "حسين أحمد أبو عجوة",
-        "image_url": "/image/Hussein Abu Ajoa.jpg",
-        "date_of_birth": "1962-02-01",
-        "date_of_death": "2006-07-05",
-        "short_description": "A key figure in the Hamas political leadership."
-    },
-    {
         "Name": "موسى أبو مرزوق",
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/2022-09-13_Russia%E2%80%93Hamas_meeting_%2811%29_%28cropped%29.jpg/377px-2022-09-13_Russia%E2%80%93Hamas_meeting_%2811%29_%28cropped%29.jpg",
         "date_of_birth": "1951",
         "date_of_death": "Unkown",
         "short_description": "Deputy chairman of the Hamas Political Bureau."
-    },
-    {
-        "Name": "محمد نزال",
-        "image_url": "/image/Mohammad Nazzal.jpg",
-        "date_of_birth": "1963",
-        "date_of_death": "Unkown",
-        "short_description": "A senior member of Hamas' political bureau and a key diplomat."
-    },
-    {
-        "Name": "خالد ابوطوس",
-        "image_url": "/image/Khaled Abu Tause.jpg",
-        "date_of_birth": "Unkown",
-        "date_of_death": "Unkown",
-        "short_description": "A member of Hamas' political leadership."
-    },
-    {
-        "Name": "عزيز دويك",
-        "image_url": "/image/Aziz Dweik.jpg",
-        "date_of_birth": "January 12, 1948",
-        "date_of_death": "Unkown",
-        "short_description": "A speaker of the Palestinian Legislative Council and a senior Hamas leader."
     }
 ]
