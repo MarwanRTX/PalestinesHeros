@@ -26,15 +26,15 @@
         "Name": "خالد مشعل",
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Khaled_Meshaal_01_%28cropped%29.jpg/372px-Khaled_Meshaal_01_%28cropped%29.jpg",
         "date_of_birth": "May 28, 1956",
-        "date_of_death": "Unkown",
+        "date_of_death": "N/A",
         "short_description": "A prominent political leader in Hamas, survived an assassination attempt by Israel in 1997."
     },
     {
         "Name": "إسماعيل هنية",
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/03-03-2020_Ismail_Haniyeh_%28cropped%29.jpg/338px-03-03-2020_Ismail_Haniyeh_%28cropped%29.jpg",
         "date_of_birth": "January 29, 1963",
-        "date_of_death": "Unkown",
-        "short_description": "A senior Hamas leader and current head of the Hamas Political Bureau."
+        "date_of_death": "July 31, 2024",
+        "short_description": "A senior Hamas leader and head of the Hamas Political Bureau."
     },
     {
         "Name": "جمال منصور",
@@ -47,21 +47,21 @@
         "Name": "يحيى السنوار",
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Yahya_al-Sinwar_2011_crop.JPG",
         "date_of_birth": "1962",
-        "date_of_death": "Unkown",
+        "date_of_death": "October 16, 2024",
         "short_description": "Leader of Hamas in Gaza and a founding member of its military wing."
     },
     {
         "Name": "صالح العاروري",
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/2022-09-13_Russia%E2%80%93Hamas_meeting_%2810%29_%28cropped%29.jpg/377px-2022-09-13_Russia%E2%80%93Hamas_meeting_%2810%29_%28cropped%29.jpg",
         "date_of_birth": "1966",
-        "date_of_death": "Unkown",
+        "date_of_death": "January 2, 2024",
         "short_description": "A senior Hamas leader responsible for its operations in the West Bank."
     },
     {
         "Name": "موسى أبو مرزوق",
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/2022-09-13_Russia%E2%80%93Hamas_meeting_%2811%29_%28cropped%29.jpg/377px-2022-09-13_Russia%E2%80%93Hamas_meeting_%2811%29_%28cropped%29.jpg",
         "date_of_birth": "1951",
-        "date_of_death": "Unkown",
+        "date_of_death": "N/A",
         "short_description": "Deputy chairman of the Hamas Political Bureau."
     }
 ]
