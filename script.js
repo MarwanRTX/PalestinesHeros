@@ -25,9 +25,6 @@ fetch('data.json')
             desc.textContent = person.short_description;
             card.appendChild(desc);
 
-            
-            card.appendChild(button);
-
             container.appendChild(card);
         });
     })
