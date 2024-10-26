@@ -25,14 +25,7 @@ fetch('data.json')
             desc.textContent = person.short_description;
             card.appendChild(desc);
 
-            const button = document.createElement('a');
-            button.classList.add('button');
-            button.href = "#";
-            button.textContent = "More Info";
-            button.addEventListener('click', (e) => {
-                e.preventDefault();
-                alert(`More about ${person.Name}: \n${person.long_description || "Description not available."}`);
-            });
+            
             card.appendChild(button);
 
             container.appendChild(card);
